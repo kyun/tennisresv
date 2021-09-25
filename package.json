@@ -1,0 +1,32 @@
+{
+  "name": "tennisresv",
+  "version": "1.0.0",
+  "description": "Is desc required?",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyun/tennisresv.git"
+  },
+  "author": "kyun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyun/tennisresv/issues"
+  },
+  "homepage": "https://github.com/kyun/tennisresv#readme",
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "@types/qs": "^6.9.7",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "qs": "^6.10.1",
+    "tesseract.js": "^2.1.5"
+  }
+}
